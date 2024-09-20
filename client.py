@@ -7,7 +7,7 @@ import json
 MQTT_USER = ''
 MQTT_PASSWORD = ''
 # MQTT_SERVER = 'broker.emqx.io'
-MQTT_SERVER = 'localhost'
+MQTT_SERVER = '192.168.0.100'
 MQTT_PORT = 1883  # Default MQTT port, change if necessary
 MQTT_KEEPALIVE = 60  # Keepalive interval in seconds
 

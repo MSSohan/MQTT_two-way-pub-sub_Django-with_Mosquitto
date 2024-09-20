@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-key'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1", "192.168.0.100"]
 
 
 # Application definition
@@ -122,7 +122,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MQTT_SERVER = 'broker.emqx.io'
+MQTT_SERVER = 'localhost'
+# MQTT_SERVER = 'broker.emqx.io'
 MQTT_PORT = 1883
 MQTT_KEEPALIVE = 60
 MQTT_USER = ''
